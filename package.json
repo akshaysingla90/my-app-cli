@@ -25,7 +25,7 @@
   "dependencies": {
     "arg": "^4.1.0",
     "chalk": "^2.4.2",
-    "covgen": "^3.1.0",
+    "covgen": "^3.1.4",
     "esm": "^3.2.18",
     "execa": "^1.0.0",
     "gitignore": "^0.6.0",
