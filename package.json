@@ -4,7 +4,8 @@
   "description": "A CLI to scaffold an Node.js application",
   "main": "src/index.js",
   "bin": {
-    "create-project": "bin/index.js"
+    "create-project": "bin/index.js",
+    "my-app": "bin/command.js"
   },
   "publishConfig": {
     "access": "public"
@@ -25,6 +26,7 @@
   "dependencies": {
     "arg": "^4.1.0",
     "chalk": "^2.4.2",
+    "commander": "^5.1.0",
     "covgen": "^3.1.4",
     "esm": "^3.2.18",
     "execa": "^1.0.0",
