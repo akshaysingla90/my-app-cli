@@ -5,7 +5,6 @@ module.exports = {
     INVALID_PROJECT_NAME: "Please enter a valid project name",
     INVALID_TEMPLATE_NAME: 'Invalid template name',
     DIRECTORY_ALREADY_EXISTS: 'Directory with project name already exists',
-    INVALID_TEMPLATE_NAME: 'Invalid template name',
     GIT_INIT_FAIL: 'Failed to initialize git',
     GIT_CLONE_FAIL:'Failed to clone boilerplate from git'
   },
