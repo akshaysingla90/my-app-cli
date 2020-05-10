@@ -66,7 +66,7 @@ async function promptForMissingOptions(options) {
     message: PROMPT_QUESTIONS.FRAMEWORK,
     choices: [
       { title: FRAMEWORKS.EXPRESS.PROMPT_TITLE, value: FRAMEWORKS.EXPRESS.VALUE },
-      { title: FRAMEWORKS.HAPI.PROMPT_TITLE, value: FRAMEWORKS.HAPI.VALUE }
+      // { title: FRAMEWORKS.HAPI.PROMPT_TITLE, value: FRAMEWORKS.HAPI.VALUE }
     ],
     default: defaultFramework,
   });
