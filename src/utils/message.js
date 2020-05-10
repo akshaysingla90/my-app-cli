@@ -11,6 +11,6 @@ module.exports = {
   },
   SUCCES_MESSAGE: {
     PROJECT_READY:'Project ready',
-    DONE:'Done',
+    DONE:'✔  Done',
   }
 }
