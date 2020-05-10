@@ -6,8 +6,9 @@ module.exports = {
     CREATE: { VALUE: 'create', PROMPT_TITLE: 'Create folder from project name' }
   },
   FRAMEWORKS: {
-    EXPRESS: { VALUE: 'express', PROMPT_TITLE: 'Express.js' },
-    HAPI: { VALUE: 'hapi', PROMPT_TITLE: 'Hapi.js' }
+    //todo make it download only specific tag i.e verison 1.0.0 
+    EXPRESS: { VALUE: 'express', PROMPT_TITLE: 'Express.js', GIT_REPO: 'https://github.com/akshaysingla90/Express-Boilerplate.git' },
+    HAPI: { VALUE: 'hapi', PROMPT_TITLE: 'Hapi.js', GIT_REPO: 'https://github.com/akshaysingla90/Hapi-Boilerplate.git' }
   },
   MESSAGES: require('./message.js'),
   PROMPT_QUESTIONS: {

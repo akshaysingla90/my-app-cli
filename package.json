@@ -35,6 +35,7 @@
     "ncp": "^2.0.0",
     "pkg-install": "^0.2.0",
     "prompts": "^2.3.2",
+    "shelljs": "^0.8.4",
     "spdx-license-list": "^5.0.0"
   },
   "files": [
