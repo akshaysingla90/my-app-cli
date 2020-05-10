@@ -83,14 +83,15 @@ export async function createProject(options) {
     process.exit(1);
   }
 
-  /* to check if template directory exits */
-  try {
-
-    await access(options.templateDirectory, fs.constants.R_OK);
-  } catch (err) {
-    console.error(`%s ${MESSAGES.ERROR_MESSAGES.INVALID_TEMPLATE_NAME}`, chalk.red.bold('ERROR'));
-    process.exit(1);
-  }
+//   /* to check if template directory exits */
+//   try {
+//     console.log(options.templateDirectory,);
+//  process.exit(1)
+//     await access(options.templateDirectory, fs.constants.R_OK);
+//   } catch (err) {
+//     console.error(`%s ${MESSAGES.ERROR_MESSAGES.INVALID_TEMPLATE_NAME}`, chalk.red.bold('ERROR'));
+//     process.exit(1);
+//   }
 
   const tasks = new Listr(
     [

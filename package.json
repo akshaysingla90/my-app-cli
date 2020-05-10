@@ -1,10 +1,10 @@
 {
-  "name": "@akshaysingla90/create-my-app-cli",
-  "version": "1.0.0",
+  "name": "@akshaysingla90/my-app-cli",
+  "version": "1.0.1",
   "description": "A CLI to scaffold an Node.js application",
   "main": "src/index.js",
   "bin": {
-    "create-project": "bin/index.js",
+    "create-my-app": "bin/index.js",
     "my-app": "bin/command.js"
   },
   "publishConfig": {
